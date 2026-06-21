@@ -1,6 +1,6 @@
 {
   "name": "adb-foreach",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Commandline tool to send commands to all Android devices currently connected to your machine",
   "main": "index.js",
   "bin": "index.js",
@@ -12,6 +12,8 @@
     "devices"
   ],
   "dependencies": {
-    "appium-adb": "^1.3.16"
+    "adb-foreach": "file:adb-foreach-1.0.2.tgz",
+    "appium-adb": "^9.0.0",
+    "process": "^0.11.10"
   }
 }
